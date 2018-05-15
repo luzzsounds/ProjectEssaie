@@ -53,6 +53,6 @@ class __TwigTemplate_ca4d4761c20f210c895ac953bc603d6495ae1405e718d205861de10a65d
         return new Twig_Source("<div>
     <?php echo \$view['form']->widget(\$form) ?>
 </div>
-", "@Framework/Form/button_row.html.php", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_row.html.php");
+", "@Framework/Form/button_row.html.php", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_row.html.php");
     }
 }

@@ -205,6 +205,6 @@ class __TwigTemplate_caccd348ed9e47de3114619146fcab7061d9aa9ba032d7a6c6a0ded029e
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
     }
 }

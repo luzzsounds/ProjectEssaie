@@ -61,6 +61,6 @@ class __TwigTemplate_f9dd5b4407be02a0a9d05ff0820291d1d0c549d054e58e887c0052bf13a
         return new Twig_Source("/*
 {{ include('@Twig/Exception/exception.txt.twig', { exception: exception }) }}
 */
-", "@Twig/Exception/exception.css.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.css.twig");
+", "@Twig/Exception/exception.css.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.css.twig");
     }
 }

@@ -1,28 +1,19 @@
+{% extends 'base.html.twig' %}
 
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Mariage</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
-</head>
+{% block body %}
 <body>
 
-<div class="container-fluid">
+<div id="home"class="container-fluid">
     <header class="row">
-        <h1 id="titre">Easy Wedding</h1>
+        <h1>Easy Wedding</h1>
+
+
+
     </header>
     <main class="row">
-        <nav class="col-lg-2">
-            <h1>Connexion</h1>
+        <nav class="col-lg-12">
+            <h1 id="id1">Connexion</h1>
             <input type="text" name="name"><input type="password" name="mdp"><input type="submit" name="submit">
             <ul>
                 <li>Home</li>
@@ -33,11 +24,11 @@
         </nav>
 
 
-        <article  class="col-lg-4">
+        <article  class="col-lg-6">
             <h1>article1</h1>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum delectus quidem nobis, impedit soluta mollitia dignissimos error itaque tempora. Aspernatur sed blanditiis libero culpa quos, nisi atque esse nihil Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga maiores pariatur alias vitae tenetur nemo quis inventore, minima magnam, deserunt odit nam! Nulla magnam pariatur obcaecati, qui quam, impedit sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure animi aliquam cupiditate delectus natus amet. Incidunt repudiandae deserunt, illum quaerat ipsum rem odio commodi cupiditate deleniti ea expedita consectetur, natus.
         </article>
-        <article class="col-lg-4">
+        <article class="col-lg-6">
             <h1>article2</h1>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum delectus quidem nobis, impedit soluta mollitia dignissimos error itaque tempora. Aspernatur sed blanditiis libero culpa quos, nisi atque esse nihil Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga maiores pariatur alias vitae tenetur nemo quis inventore, minima magnam, deserunt odit nam! Nulla magnam pariatur obcaecati, qui quam, impeditlorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit doloribus sunt sapiente, corrupti numquam, earum molestiae iure maxime in nostrum sit facilis nemo. Magnam quam voluptate consequatur inventore numquam?
         </article>
@@ -45,4 +36,4 @@
 </div>
 
 </body>
-</html>
+{% endblock %}

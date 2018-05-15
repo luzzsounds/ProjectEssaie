@@ -95,6 +95,6 @@ class __TwigTemplate_7edeeff6dea1b03b75e73148ad3f4c7f920412ea708f1997b23e6d5a615
         </div>
     </body>
 </html>
-", "@Twig/Exception/error.html.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.html.twig");
+", "@Twig/Exception/error.html.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.html.twig");
     }
 }
