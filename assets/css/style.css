@@ -16,6 +16,7 @@ body {
     line-height: 1.7;
     color: #828282;
     background: #fff;
+    background-image: url("/images/image1.jpg");
 }
 
 li{
@@ -25,5 +26,14 @@ li{
 }
 
 nav{
+    text-align: center;
+    background-color: pink;
+
+}
+
+footer{
+    background-color: pink;
+}
+#footer{
     text-align: center;
 }
