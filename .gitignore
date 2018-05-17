@@ -27,7 +27,10 @@
 
 /public/bundles/
 ###< symfony/framework-bundle ###
-
+/.env
+/public/bundles/
+/var/
+/vendor/
 ###> symfony/webpack-encore-pack ###
 /node_modules/
 /public/build/
