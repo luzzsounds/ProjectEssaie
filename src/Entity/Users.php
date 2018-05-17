@@ -37,6 +37,13 @@ class Users
      */
     private $useBirthDate;
 
+    private $dateAdd;
+
+    public function __construct()
+    {
+     $this->dateAdd = new \DateTime();
+    }
+
     /**
      * @ORM\Column(type="string", length=255)
      */

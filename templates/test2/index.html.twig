@@ -11,10 +11,21 @@
 <div class="example-wrapper">
     <h1>Hello {{ controller_name }}! ✅</h1>
 
+
     This friendly message is coming from:
     <ul>
         <li>Your controller at <code><a href="{{ 'src/Controller/Test2Controller.php'|file_link(0) }}">src/Controller/Test2Controller.php</a></code></li>
         <li>Your template at <code><a href="{{ 'templates/test2/index.html.twig'|file_link(0) }}">templates/test2/index.html.twig</a></code></li>
+
     </ul>
 </div>
+    <section>
+        {{  form_start(form) }}
+        {{  form_row(form.name) }}
+        {{  form_row(form.description) }}
+        {{  form_row(form.price) }}
+
+        <button type="submit">Valider</button>
+        {{ form_end(form) }}
+    </section>
 {% endblock %}

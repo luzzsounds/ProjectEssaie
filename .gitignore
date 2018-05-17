@@ -15,7 +15,7 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
-
+d
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
@@ -27,7 +27,10 @@
 
 /public/bundles/
 ###< symfony/framework-bundle ###
-
+/.env
+/public/bundles/
+/var/
+/vendor/
 ###> symfony/webpack-encore-pack ###
 /node_modules/
 /public/build/
