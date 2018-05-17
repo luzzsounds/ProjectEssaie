@@ -1156,6 +1156,6 @@ class __TwigTemplate_f2835cfb0b3a8c4a2a9e601557a1accbae61fc549849c8d16ecdb9f9364
         </table>
     {% endif %}
 {% endblock %}
-", "@Security/Collector/security.html.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\security-bundle\\Resources\\views\\Collector\\security.html.twig");
+", "@Security/Collector/security.html.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\security-bundle\\Resources\\views\\Collector\\security.html.twig");
     }
 }

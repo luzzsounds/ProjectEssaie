@@ -121,6 +121,6 @@ class __TwigTemplate_4070fbd996f2d3e8444b0f2b8cb89232a6d1a83b7fd0ccbb8e7e46f6457
         {% endfor %}
     </tbody>
 </table>
-", "@WebProfiler/Profiler/bag.html.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\bag.html.twig");
+", "@WebProfiler/Profiler/bag.html.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\bag.html.twig");
     }
 }

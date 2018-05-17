@@ -42,16 +42,25 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 7
-        echo "    </head>
+        echo "        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+
+        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\">
+        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\"></script>
+        <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\"></script>
+    </head>
     <body>
         ";
-        // line 9
+        // line 16
         $this->displayBlock('body', $context, $blocks);
-        // line 10
+        // line 17
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 11
-        echo "    </body>
+        // line 18
+        echo "
+
+    </body>
 </html>
 ";
         
@@ -89,6 +98,9 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
+        echo " <link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.css"), "html", null, true);
+        echo "\"/> ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -97,7 +109,7 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
 
     }
 
-    // line 9
+    // line 16
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -114,7 +126,7 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
 
     }
 
-    // line 10
+    // line 17
     public function block_javascripts($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -138,7 +150,7 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
 
     public function getDebugInfo()
     {
-        return array (  118 => 10,  101 => 9,  84 => 6,  66 => 5,  54 => 11,  51 => 10,  49 => 9,  45 => 7,  43 => 6,  39 => 5,  33 => 1,);
+        return array (  130 => 17,  113 => 16,  93 => 6,  75 => 5,  61 => 18,  58 => 17,  56 => 16,  45 => 7,  43 => 6,  39 => 5,  33 => 1,);
     }
 
     public function getSourceContext()
@@ -148,13 +160,22 @@ class __TwigTemplate_b34658598d996fc1ccb01d0cca2dae779cb782a022e7e40d0044b25e2e8
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %} <link rel=\"stylesheet\" href=\"{{ asset('build/app.css') }}\"/> {% endblock %}
+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+
+        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\">
+        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\"></script>
+        <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\"></script>
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+
+
     </body>
 </html>
-", "base.html.twig", "C:\\Users\\Dell\\Documents\\Projects\\ProjectEssaie\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\Dell\\Documents\\ProjectEssaie\\templates\\base.html.twig");
     }
 }

@@ -28,6 +28,26 @@ class srcDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             $canonicalMethod = 'GET';
         }
 
+        // test2
+        if ('/test2' === $pathinfo) {
+            return array (  '_controller' => 'App\\Controller\\Test2Controller::index',  '_route' => 'test2',);
+        }
+
+        // app_test_test
+        if ('/home' === $trimmedPathinfo) {
+            $ret = array (  '_controller' => 'App\\Controller\\TestController::test',  '_route' => 'app_test_test',);
+            if ('/' === substr($pathinfo, -1)) {
+                // no-op
+            } elseif ('GET' !== $canonicalMethod) {
+                goto not_app_test_test;
+            } else {
+                return array_replace($ret, $this->redirect($rawPathinfo.'/', 'app_test_test'));
+            }
+
+            return $ret;
+        }
+        not_app_test_test:
+
         if (0 === strpos($pathinfo, '/_')) {
             // _twig_error_test
             if (0 === strpos($pathinfo, '/_error') && preg_match('#^/_error/(?P<code>\\d+)(?:\\.(?P<_format>[^/]++))?$#sD', $pathinfo, $matches)) {
